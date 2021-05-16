@@ -8,8 +8,8 @@ export const Card = props => (
  <div className='card-container'>
      <img
      alt="monster"
-     //src={'https://robohash.org/3?set=set2'}
-     src={robo}
+     src={`https://robohash.org/${props.monster.id}?set=set2`}
+    // src={robo}
      width="250"
      height="180"
      />
